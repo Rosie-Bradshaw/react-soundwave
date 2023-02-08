@@ -1,13 +1,13 @@
-import { Link } from 'react-router-dom';
 import { Container } from '../../Global.styles';
 import {Nav, Menu, MenuLink, NavLogoImg, LogoLink} from './navbar.style'; 
+import logo from '../../assets/logo.png';
 
 export default function Navbar(){
     return (
         <Nav>
             <Container>
                 <MenuLink to="/">
-                    <NavLogoImg src="./assets/logo.png" alt="soundwave-logo"></NavLogoImg>
+                    <NavLogoImg src={logo} alt="soundwave-logo"></NavLogoImg>
                 </MenuLink>
                 <LogoLink to="/">Soundwave</LogoLink>
                 

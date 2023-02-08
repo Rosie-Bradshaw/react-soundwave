@@ -1,7 +1,7 @@
 import './hero.style'; 
 import { Button } from '../../components';
 import { HeroBackgroundBlueCircle, HeroBackgroundPurpleCircle, HeroBigBackgroundBlueCircle, HeroContainer, HeroDivHalf, HeroImage, HeroText } from './hero.style';
-import {GlobalStyles } from '../../Global.styles';
+import  girl from '../../assets/girl.png';
 
 export default function Hero(){
     return (
@@ -11,7 +11,7 @@ export default function Hero(){
             <HeroBigBackgroundBlueCircle />
             
             <HeroDivHalf>
-                <HeroImage src='./assets/landing-page-girl.png' alt='image-girl' />
+                <HeroImage src={girl} alt='image-girl' />
             </HeroDivHalf>
             
             <HeroText>

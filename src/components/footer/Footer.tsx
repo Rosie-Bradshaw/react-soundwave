@@ -1,6 +1,8 @@
 import { BoldText, Container } from '../../Global.styles';
 import './footer.style'; 
 import { Foot, FooterLeft, FooterRight, SocialDiv, SocialImage } from './footer.style';
+import Twitter from '../../assets/Twitter.png'; 
+import Facebook from '../../assets/Facebook.png';
 
 export default function Footer(){
     return (
@@ -13,11 +15,11 @@ export default function Footer(){
                     </FooterLeft>
                     <FooterRight>
                         <SocialDiv>
-                            <SocialImage src="./assets/Twitter.png" alt="twitter-link" />
+                            <SocialImage src={Twitter} alt="twitter-link" />
                             <BoldText>Twitter</BoldText>
                         </SocialDiv>
                         <SocialDiv>
-                            <SocialImage src="./assets/Facebook.png" alt="facebook-link" />
+                            <SocialImage src={Facebook} alt="facebook-link" />
                             <BoldText>Facebook</BoldText>
                         </SocialDiv>
                     </FooterRight>

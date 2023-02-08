@@ -1,7 +1,6 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { GlobalStyles } from './Global.styles';
-import { Navbar, Discover, Footer, Hero, Join, Layout } from './containers';
+import { Discover, Hero, Join, Layout } from './containers';
 
 
 function App() {

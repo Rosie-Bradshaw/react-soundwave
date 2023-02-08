@@ -24,12 +24,6 @@ export const IconImage = styled.img`
     height: 25px;
     }
 `
-// export const DiscoverImageDiv = styled.div`
-//     display: flex;
-//     @media screen and (max-width: 700px) {
-//         align-items: flex-start;
-//     }
-// `
 export const DiscoverImage = styled.img`
     height: 400px;
     @media screen and (max-width: 700px){

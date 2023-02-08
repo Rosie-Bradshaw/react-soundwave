@@ -26,7 +26,7 @@ export default function Discover(){
                     <p>By joining you can benefit by listening to the latest albums released.</p>
                 </div>
                 
-                <DiscoverImage src="./assets/covers.jpg" alt="" />
+                <DiscoverImage src="./assets/covers.jpg" alt="cover-image" />
                 
             </MainContainer>
             

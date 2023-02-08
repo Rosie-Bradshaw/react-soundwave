@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { theme } from "../../Global.styles";
 import { Link } from 'react-router-dom';
 
 
@@ -9,15 +8,6 @@ export const Nav = styled.nav`
     display: flex;
     margin:auto;
 `
-
-// export const NavContainer = styled.div`
-//     padding: 2rem;
-//     min-width: 700px;
-//     width: 1400px;
-//     margin: auto;
-//     display: flex;
-//     align-items: center;
-// `
 
 export const NavLogoImg = styled.img`
     height: 80px;

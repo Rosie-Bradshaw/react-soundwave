@@ -7,6 +7,7 @@ export const Nav = styled.nav`
     width: 100vw;
     display: flex;
     margin:auto;
+    z-index: 999;
 `
 
 export const NavLogoImg = styled.img`
@@ -14,6 +15,7 @@ export const NavLogoImg = styled.img`
     @media screen and (max-width:700px){
         height: 50px
     }
+    z-index: 999;
 `
 
 export const LogoLink = styled(Link)`
@@ -21,6 +23,7 @@ export const LogoLink = styled(Link)`
     @media screen and (max-width:700px){
         font-size: 1.25rem;
     }
+    z-index: 999;
 `
 
 export const Menu = styled.ul`
@@ -29,6 +32,7 @@ export const Menu = styled.ul`
     @media screen and (max-width:700px){
         font-size: 1rem;
     }
+    z-index: 999;
 `
 
 export const MenuLink = styled(Link)`
@@ -36,4 +40,5 @@ export const MenuLink = styled(Link)`
     @media screen and (max-width: 700px){
         margin: 0 10px
     }
+    z-index: 999;
 `

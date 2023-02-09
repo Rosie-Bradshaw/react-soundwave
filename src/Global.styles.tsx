@@ -147,6 +147,7 @@ export const DisplayText = styled.h1`
     @media screen and (max-width:700px){
         font-size: 4rem;
     }
+    display: inline-block;
 `
 
 export const AccentColorSpan = styled(DisplayText)`

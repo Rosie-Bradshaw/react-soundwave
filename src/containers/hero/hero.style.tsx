@@ -44,6 +44,10 @@ export const HeroBackgroundPurpleCircle = styled.div`
     bottom: 10%; 
     left: 1%;
     z-index: -1;
+    @media screen and (max-width:1700px){
+        width: 300px;
+        height: 300px;
+    }
     @media screen and (max-width:700px){
         width: 100px;
         height: 100px;
@@ -59,12 +63,19 @@ export const HeroBigBackgroundBlueCircle = styled.div`
     bottom: -60%; 
     right: -20%;
     z-index: -1;
+    @media screen and (max-width:1700px){
+        width: 600px;
+        height: 600px;
+        bottom: -10%; 
+        right: -10%;
+    }
     @media screen and (max-width:700px){
         width: 200px;
         height: 200px;
         bottom: -10%; 
         right: -20%;
     }
+
 `
 
 export const HeroBackgroundBlueCircle = styled.div`
@@ -76,6 +87,12 @@ export const HeroBackgroundBlueCircle = styled.div`
     top: 15%; 
     left: 27%; 
     z-index: -1;
+    @media screen and (max-width:1700px){
+        width: 300px;
+        height: 300px;
+        bottom: -10%; 
+        right: -10%;
+    }
     @media screen and (max-width:700px){
         width: 100px;
         height: 100px;

@@ -1,6 +1,5 @@
-import { Form } from '../../components';
+import { Form, Footer} from '../../components';
 import { AccentColorSpan, DisplayText, MainContainer } from '../../Global.styles';
-import Footer from '../../components/footer/Footer';
 import './join.style'; 
 import { DisplayTextDiv, JoinBackgroundBlueCircle, JoinBackgroundPurpleCircle } from './join.style';
 
